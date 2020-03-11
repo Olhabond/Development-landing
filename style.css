@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.main-screen {
+    background-image: url("img/fhoto-us.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+.header__container {
+    display: flex;
+    justify-content: flex-end;
+}
+.header__menu {
+    display: flex;
+    justify-content: flex-start;
+}
+.header__link {
+    text-decoration: none;
+    padding: 40px 0;
+    color: white;
+    margin-right: 15px;
+
+}
+
+.main-screen__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.main-screen__title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
