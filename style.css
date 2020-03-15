@@ -47,6 +47,11 @@ body {
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+    margin-top: 300px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .main-screen__title {
@@ -54,4 +59,94 @@ body {
     font-size: 48px;
     line-height: 64px;
     color: #FFFFFF;
+    text-align: center;
+    padding-top: 260px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-screen__button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #4985FF;
+    border-radius: 30px;
+    width: 15%;
+    height: 45px;
+    color: white;
+    
+}
+.our-services__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    color: #323232;
+    margin-top: 110px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.our-services__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.our-services__services-item {
+    display: flex;
+  justify-content: space-between;
+   flex-direction: row;
+   flex-wrap: nowrap;
+    
+}
+
+.services-makes {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.services-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.our-services__bitton {
+    width: 200px;
+    height: 45px;
+    left: 860px;
+    top: 1453px;
+    background: #4985FF;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 15%;
+}
+.about-us {
+    display: flex;
+}
+.about-us__left {
+    width: 50%;
+}
+.about-us__right {
+    width: 50%;
+
+}
+.about-us__title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 53px;
 }
